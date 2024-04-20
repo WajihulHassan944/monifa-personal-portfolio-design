@@ -68,7 +68,11 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-          <div class="heroImgWrap">  <img src="myimg.png" alt="John Doe profile picture" data-aos="zoom-in" style="width:100%; aspect-ratio:1; object-fit:cover; border-radius:50%;
+          <div style="width:370px; height:370px;border-radius:50%; display:flex; box-shadow: 0 1px 20px #fff;
+        box-shadow: 0 1px 0px 0px #7b57ff;
+        padding: 10px;
+		justify-content:center;
+		align-items:center; overflow:hidden;">  <img src="myimg.png" alt="John Doe profile picture" data-aos="zoom-in" style="width:100%; aspect-ratio:1; object-fit:cover; border-radius:50%;
 		
     }" />
         </div></div>

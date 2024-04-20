@@ -1,0 +1,165 @@
+<html>
+<head><title>hello</title>
+
+
+
+
+ 
+</head>
+<body>
+
+
+<style>
+/* Basic styles for the preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.preloader-text {
+    text-align: center;
+}
+
+/* Animation for the text coming into view */
+@keyframes slideAndRotate {
+    from {
+        transform: translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateZ(30deg);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg);
+        opacity: 1;
+    }
+}
+
+/* Animation for the line growing */
+@keyframes fillLine {
+    from {
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/* Apply animations to elements */
+.preload-text-top, .preload-text-btm {
+    animation: slideAndRotate 1.5s ease forwards;
+}
+
+/* Fade out the whole preloader */
+@keyframes fadeOutPreloader {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.preloader.hide {
+    animation: fadeOutPreloader 0.5s ease forwards;
+    animation-delay: 3.5s; /* Adjust based on total animation time */
+}
+
+/* Ensure animations play when loaded */
+.display-xl {
+    opacity: 0; /* Set initial state to hidden */
+}
+
+.line {
+    display: block;
+    height: 32px;
+    background-color: #000; /* Assuming a black line, adjust as needed */
+}
+.line-wrap-inner {
+    width: 100%;
+    height: 5px;
+    background-color: #eee; /* Light grey background */
+    overflow: hidden; /* Ensures the inner fill does not spill over */
+    border-radius: 20px; /* Adding a large radius to create the curve effect */
+	 transform: rotate(80deg);
+	
+}
+
+.line-fill {
+    height: 5px;
+    background-color: black; /* The color that 'fills' the line */
+    width: 0%; /* Start with no fill */
+    animation: fillLine 2s ease forwards;
+    animation-delay: 1.5s; /* Starts after text animation */
+    border-radius: 20px; /* Ensure the fill also appears curved */
+	 transform: rotate(80deg);
+}
+
+/* Animation for the line filling */
+@keyframes fillLine {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Rest of the styles remain the same as previously described */
+#curve {
+    animation: draw 2s forwards ease-out;
+    animation-delay: 1.5s; /* adjust based on when you want the animation to start */
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+</style>
+
+
+
+ <div  class="preloader">
+        <div style="opacity:1" class="preloader-text">
+            <div class="preloader-text-wrap">
+                <div style="-webkit-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);-moz-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);-ms-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);opacity:0;transform-style:preserve-3d"
+                    class="display-xl preload-text-top">Marco</div>
+            </div>
+            <div class="preloader-line-wrap">
+
+
+
+                <div class="preloader-text-wrap btm">
+                    <div style="-webkit-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);-moz-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);-ms-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);opacity:0;transform-style:preserve-3d"
+                        class="display-xl preload-text-btm">Marino</div>
+                </div>
+				
+				
+				<div class="line-wrap">
+    <svg width="100%" height="15" viewBox="0 0 200 20" style=" transform: rotate(-20deg);">
+        <path d="M0,10 Q100,0 200,10" fill="transparent" stroke="#eee" stroke-width="10" />
+        <path id="curve" d="M0,10 Q100,0 200,10" fill="transparent" stroke="black" stroke-width="5" stroke-dasharray="500" stroke-dashoffset="500"/>
+    </svg>
+</div>
+            </div>
+        </div>
+    </div>
+   
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function() {
+        document.querySelector('.preloader').classList.add('hide');
+    }, 9500); // Corresponds to the total duration of the preloader effects
+});
+</script>
+
+</body>
+</html>

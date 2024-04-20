@@ -961,7 +961,6 @@ a {
 
 
 
-
 /* For WebKit-based browsers */
 ::-webkit-scrollbar {
     width: 10px; /* Adjust the width as needed */
@@ -1514,5 +1513,6 @@ section {
 		margin-top: 30px;
 	}
 }
+
 
 
