@@ -158,7 +158,7 @@
             <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
                 <h2 class="experience-sub-title"><span class="toHoverCss">Licenses</span></h2>
                 <div class="article-container-experience">
-                    <article style="margin-right:40px;">
+                    <article  class="myArticleOne">
                         <i class="fa fa-user-md icon myhthree" style="font-size:25px; margin-right:15px;"></i>
                         <div>
                             <h3 style="width:200px;"><span class="toHoverCss">CPT I License</span></h3>
@@ -177,7 +177,7 @@
             <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
                 <h2 class="experience-sub-title">Research</h2>
                 <div class="article-container-experience">
-                   <article style="margin-right:50px;">
+                   <article  class="myArticleTwo">
                         <i class="fa fa-flask icon myhthree" style="font-size:25px; margin-right:15px;"></i>
                         <div>
                             <h3 style="width:200px;"><span class="toHoverCss">Medical Research</span></h3>

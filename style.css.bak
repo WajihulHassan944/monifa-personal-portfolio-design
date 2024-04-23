@@ -847,6 +847,12 @@ html {
 	width:400px; height:400px; object-fit:cover; box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
+.myArticleOne{
+	margin-right:40px;
+}
+.myArticleTwo{
+	margin-right:50px;
+}
 @media only screen and (max-width: 767px) {
 	.owl-nav {
 		display: none;
@@ -858,6 +864,13 @@ html {
 	#contact{
 		margin-top:200px;
 	}
+	
+.myArticleOne{
+	margin-right:0;
+}
+.myArticleTwo{
+	margin-right:0;
+}
 	
 .about-pic{
 	width:200px; height:200px; object-fit:cover; box-shadow:0 10px 20px rgba(0,0,0,0.2); 
