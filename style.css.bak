@@ -37,41 +37,47 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 11.5vh;
 	
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    text-decoration-color: white;
-	padding:8px 20px;
-	transition:0.6s ease;
-}
-.dark-mode a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     text-decoration-color: white;
 	padding:8px 20px;
 	transition:0.6s ease;
 }
 a:hover {
-	background:black;
+	border-radius:30px;
+	background:#7b57ff;
 	color:#fff;
+	
 }
-.dark-mode a:hover {
-    background: #7959fd;
-    color: #fff;
+.contactBtnNav{
+	cursor:pointer; 
+	background:#7b57ff; 
+	padding:8px 20px; 
+	border-radius:30px; 
+	box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.contactBtnNav:hover{
+	background:black;
+	color:#7b57ff;
+	border:2px solid #7b57ff;
+	box-shadow:0 10px 20px rgba(0,0,0,0.4);
 }
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
 	font-weight:700;
+	color:#7b57ff;
 }
 
 .logo:hover {
@@ -197,11 +203,6 @@ section {
 	transition:1s ease-in-out;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
-.dark-mode 
-.section__pic-container img:hover{
-	padding:5px;
-	box-shadow: #fff 0px 1px 4px, #fff 0px 0px 0px 3px;
-	}
 .section__text {
     align-self: center;
     text-align: center;
@@ -218,12 +219,6 @@ section {
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-}
-.dark-mode .section__text__p2{
-	color:cyan;
-}
-.dark-mode .section__textsss{
-    color: #7b57ff;
 }
 
 
@@ -286,14 +281,13 @@ section {
 }
 .btn-color-2 {
     background: none;
+	color:#7b57ff;
 }
 
 .btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
-.dark-mode .btn-color-2{
-	color:#fff;
-}
+
 
 .btn-container {
     gap: 1rem;
@@ -491,23 +485,8 @@ footer p {
 
 
 
-
-
-
-.dark-mode {
-    background-color: #0a061d;
-    color: white; /* Optionally, change text color */
-}
-.dark-mode-anchor {
-    color: black;
-    text-decoration-color: white;
-}
 .shadow-header {
 	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-
-.dark-mode .shadow-header {
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 128, 128, 0.15) 0px 0px 0px 1px;
 }
 
 
@@ -573,19 +552,6 @@ footer p {
     position: absolute;
     top: 50%;
     left: 0;
-}
-.dark-mode .projects__subtitle::after {
-    content: '';
-    width: 20px;
-    height: 1px;
-    background-color: cyan;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-
-.dark-mode .projects__description{
-	color:#eee;
 }
 .projects__title {
     margin-bottom: .75rem;
@@ -747,27 +713,6 @@ footer p {
     resize: none;
 	background:#fff;
 }
-.dark-mode .form .form-details input[type="text"],
-.dark-mode .form .form-details input[type="email"] {
-    padding: 15px 20px;
-    color: var(--black);
-    outline: none;
-    border: 1px solid var(--grey);
-    margin: 35px 15px;
-    font-size: 14px;
-	background:#e8e7e8;
-}
-
-.dark-mode .form .form-details textarea {
-    padding: 15px 20px;
-    margin: 0 15px;
-    color: var(--black);
-    outline: none;
-    border: 1px solid var(--grey);
-    font-size: 14px;
-    resize: none;
-	background:#e8e7e8;
-}
 
 .form .form-details button {
     padding: 15px 25px;
@@ -782,11 +727,6 @@ footer p {
     cursor: pointer;
 }
 
-.dark-mode .form .form-details button {
-    color: black;
-    background: cyan;
-	border:2px solid black;
-}
 .heroImgWrap{
 	width:370px; height:370px;border-radius:50%; display:flex; box-shadow: 0 1px 20px #fff;
         box-shadow: 0 1px 0px 0px #7b57ff;
@@ -856,15 +796,6 @@ footer p {
 .blogs .box-container .box{
     border-radius: .5rem;
     background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
-    padding:30px;
-	padding-bottom:40px;
-	width:320px;
-	
-}
-.dark-mode .blogs .box-container .box{
-    border-radius: .5rem;
-    background:#e8e7e8;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
     padding:30px;
 	padding-bottom:40px;
@@ -961,6 +892,7 @@ a {
 
 
 
+
 /* For WebKit-based browsers */
 ::-webkit-scrollbar {
     width: 10px; /* Adjust the width as needed */
@@ -1003,35 +935,17 @@ a {
 .myptag{
 	color:black;
 }
-.dark-mode .myptag{
-	color:#fff;
-}
 .toChangeBackgroundAbout{
 	background:#fff;
-}
-.dark-mode .toChangeBackgroundAbout{
-	background:#e8e7e8;
 }
 .myhthree{
 	color:#333;
 }
-.dark-mode .myhthree{
-	color:black;
-}
-.dark-mode .section__textOne{
-	color:#eee;
-}
 .oneone{
 	color:black;
 }
-.dark-mode .oneone{
-	color:#fff;
-}
 .hamburger-icon span{
 	background:black;
-}
-.dark-mode .hamburger-icon span{
-	background:#fff;
 }
 
 section {
@@ -1123,61 +1037,6 @@ section {
 
 
 
-.dark-mode .toHoverCss {
---s: 0.1em;   /* the thickness of the line */
-  --c: blue; /* the color */
-  
-  color: #0000;
-  padding-bottom: var(--s);
-  background: 
-    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-  -webkit-background-clip: text,padding-box;
-          background-clip: text,padding-box;
-  transition: 0.5s;
-}
-
-.dark-mode .toHoverCss:hover {
- --_p: 100% /* Full underline on hover */
-}
-.dark-mode .toHoverCssHome {
-  --s: 0.1em;   /* the thickness of the line */
-  --c: white; /* the color */
-  color: #0000;
-  padding-bottom: var(--s);
-  background: 
-    linear-gradient(90deg,var(--c) 50%,#7959fd 0) calc(100% - var(--_p,0%))/200% 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-  transition: 0.5s;
-}
-
-
-.dark-mode .toHoverCssHome:hover {
- --_p: 100% /* Full underline on hover */
-}
-
-.dark-mode .toHoverCssAbout {
-  --s: 0.1em;   /* the thickness of the line */
-  --c: cyan; /* the color */
-
-  color: #0000;
-  padding-bottom: var(--s);
-  background: 
-    linear-gradient(90deg,var(--c) 50%,#fff 0) calc(100% - var(--_p,0%))/200% 100%,
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-  -webkit-background-clip: text,padding-box;
-          background-clip: text,padding-box;
-  transition: 0.5s;
-}
-
-.dark-mode .toHoverCssAbout:hover {
-  --_p: 100%; /* Full underline on hover */
-}
-
-
-
-
 
 
 
@@ -1214,15 +1073,6 @@ section {
     border-color: transparent;
   }
 }
-
-
-
-
-.dark-mode .iconsss:hover{
-	color:cyan;
-}
-
-
 
 
 
@@ -1307,12 +1157,6 @@ section {
 .wrapperaround{
   display: flex;
 }
-.dark-mode .static-txt{
-  color: #fff;
-  font-size:30px;
-  
-  
-}
 .static-txt{
   color: #55555;
   font-size:30px;
@@ -1340,16 +1184,7 @@ section {
   margin: 5px 0;
   line-height: 45px; /* Adjusted line-height */
 }
-.dark-mode .dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: black;
-  border-left: 2px solid cyan;
-  animation: typing 3s steps(10) infinite;
-}
+
  .dynamic-txts li span::after{
   content: "";
   position: absolute;
@@ -1400,23 +1235,6 @@ section {
 
 
 
-
-/*
-.dark-mode .iconsssWrap{
-	width:50px;
-	height:50px;
-	border:3px solid #7b57ff;
-	border-radius:50%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-
-}
-.dark-mode .iconsss{
-	color:#fff;
-	font-size:20px;
-}*/
 
 .btn-color-1{
 	border:none;
@@ -1513,6 +1331,7 @@ section {
 		margin-top: 30px;
 	}
 }
+
 
 
 

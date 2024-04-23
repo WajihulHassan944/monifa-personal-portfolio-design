@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 let lastScrollTop = 0;
 const homeSection = document.getElementById('profile'); // Assuming the ID of the home section is 'home'
-const headerHeightNormal = '11.5vh'; // Normal height of the header
-const headerHeightHome = '11.5vh'; // Height of the header when in the home section
+const headerHeightNormal = '12vh'; // Normal height of the header
+const headerHeightHome = '12vh'; // Height of the header when in the home section
 
 const shadowHeader = () => {
     let currentScroll = window.pageYOffset || document.documentElement.scrollTop;

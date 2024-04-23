@@ -31,18 +31,17 @@
 
 </head>
 
-<body class="dark-mode">
+<body >
     <nav id="desktop-nav" style="background:#0a061d;">
         <div class="logo myCustomButton" data-aos="fade-up">O. Monifa Sawyerr</div>
         <div>
             <ul class="nav-links" data-aos="fade-up">
+			
+                <li><a href="#profile" class="myCustomButton">Home</a></li>
                 <li><a href="#about" class="myCustomButton">About</a></li>
                 <li><a href="#experience" class="myCustomButton">Experience</a></li>
                 <li><a href="#projects" class="myCustomButton">Projects</a></li>
-                <li><a href="#contact" class="myCustomButton">Contact</a></li>
-				 <!-- Theme button -->
-                <i class="ri-moon-line myCustomButton" id="theme-button" style="cursor:pointer; background:#7b57ff; padding:5px 8px; box-shadow:0 10px 20px rgba(0,0,0,0.4);"></i>
-
+<li><a href="#contact" class="contactBtnNav">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -68,18 +67,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-          <div style="width:370px; height:370px;border-radius:50%; display:flex; box-shadow: 0 1px 20px #fff;
-        box-shadow: 0 1px 0px 0px #7b57ff;
-        padding: 10px;
-		justify-content:center;
-		align-items:center; overflow:hidden;">  <img src="myimg.png" alt="John Doe profile picture" data-aos="zoom-in" style="width:100%; aspect-ratio:1; object-fit:cover; border-radius:50%;
+          <div class="heroImgWrap">  <img src="myimg.png" alt="John Doe profile picture" data-aos="zoom-in" style="width:100%; aspect-ratio:1; object-fit:cover; border-radius:50%;
 		
     }" />
         </div></div>
         <div class="section__text">
             <p class="section__text__p1 section__textOne" >Hello, I'm</p>
             <h1 class="title" data-aos="fade-up">O. Monifa Sawyerr</h1>
-           <p class="section__text__p2 " data-aos="fade-up"><span class="toHoverCssHome">Health Equity Advocate and Medical Researcher </span></p>
+           <p class="section__text__p2 " data-aos="fade-up"><span class="toHoverCssHome">Health Equity Advocate and Medical Student </span></p>
 <!-- <p class="section__text__p2 " data-aos="fade-up">
  <div class="wrapperaround">
   <div class="static-txt">I'm a</div>
@@ -118,9 +113,8 @@
     
      
 
-           <div class="iconsssWrap">   <i class="fab fa-github iconsss myCustomButton" ></i></div>
- <div class="iconsssWrap"> <i class="fab fa-linkedin iconsss myCustomButton" ></i></div>
- <div class="iconsssWrap"> <i class="fab fa-youtube iconsss myCustomButton" onclick="window.open('https://www.youtube.com/@trainwithDevesh', '_blank')"></i></div>
+ <div class="iconsssWrap"> <i class="fab fa-linkedin iconsss myCustomButton" onclick="window.open('https://www.linkedin.com/', '_blank')"></i></div>
+ <div class="iconsssWrap"> <i class="fab fa-youtube iconsss myCustomButton" onclick="window.open('https://www.youtube.com/', '_blank')"></i></div>
 
 
 
@@ -133,7 +127,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="myimg.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" style="width:400px; height:400px; object-fit:cover; box-shadow:0 10px 20px rgba(0,0,0,0.4);" />
+                <img src="myimg.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" style="width:400px; height:400px; object-fit:cover; box-shadow:0 10px 20px rgba(0,0,0,0.2);" />
             </div>
           <div class="about-details-container">
     <div class="about-containers">
@@ -252,11 +246,7 @@
         <p>Doctor of Medicine (Anticipated Graduation December 2025)</p>
     </div>
 
-    <div class="box">
-        <h4>July 2023 - July 2025</h4>
-        <h3>Certified Phlebotomist Technician (CPT I)</h3>
-        <p>California Department of Public Health</p>
-    </div>
+  
 </div>
 
 
@@ -546,10 +536,10 @@ i{
     <div class="form">
         <div class="form-txt" data-aos="zoom-in">
             <h1 class="oneone">Let's Connect!</h1>
-            <span class="oneone">I will read all emails. Send me any message you want and I'll get back to you.</span>
-            <h3 class="oneone">Phone:</h3>
-            <p class="oneone">(209) 898-9953</p>
-        <h3 class="oneone">Email:</h3>
+            <span class="oneone">Don't hesitate to reach out—I'm ready to connect! Your message matters to me, and I'm dedicated to giving it the attention it 
+			deserves. Whether you've got a burning question, valuable feedback, or simply want to say hello, I'm committed to responding. I can't wait to 
+			hear from you!</span>
+         <h3 class="oneone">Email:</h3>
             <p class="oneone">omsawyerr@ucdavis.edu</p>
         </div>
         <div class="form-details" data-aos="zoom-in" id="contactContent">
@@ -617,10 +607,10 @@ document.getElementById('sendEmail').addEventListener('click', function() {
         <nav>
             <div class="nav-links-container footerNavs">
                 <ul class="nav-links">
-                    <li><a href="#about" class="myCustomButton">About</a></li>
-                    <li><a href="#experience" class="myCustomButton">Experience</a></li>
-                    <li><a href="#projects" class="myCustomButton">Projects</a></li>
-                    <li><a href="#contact" class="myCustomButton">Contact</a></li>
+                    <li><a href="#about" class="myCustomButton" style="color:black;">About</a></li>
+                    <li><a href="#experience" class="myCustomButton" style="color:black;">Experience</a></li>
+                    <li><a href="#projects" class="myCustomButton" style="color:black;">Projects</a></li>
+                    <li><a href="#contact" class="myCustomButton" style="color:black;">Contact</a></li>
                 </ul>
             </div>
         </nav>
