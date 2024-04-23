@@ -91,7 +91,7 @@
             Download CV
           </button>
                 <button class="btn btn-color-1 myCustomButton" onclick="document.getElementById('contact').scrollIntoView();">
-            Contact Info
+            Contact Me
           </button>
             </div>
 			
@@ -111,7 +111,7 @@
     
      
 
- <div class="iconsssWrap"> <i class="fab fa-linkedin iconsss myCustomButton" onclick="window.open('https://www.linkedin.com/', '_blank')"></i></div>
+ <div class="iconsssWrap"> <i class="fab fa-linkedin iconsss myCustomButton" onclick="window.open('https://www.linkedin.com/in/o-monifa-sawyerr/', '_blank')"></i></div>
  <div class="iconsssWrap"> <i class="fab fa-youtube iconsss myCustomButton" onclick="window.open('https://www.youtube.com/', '_blank')"></i></div>
 
 
@@ -125,7 +125,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="myimg.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" style="width:400px; height:400px; object-fit:cover; box-shadow:0 10px 20px rgba(0,0,0,0.2);" />
+                <img src="myimg.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" />
             </div>
           <div class="about-details-container">
     <div class="about-containers">
@@ -150,54 +150,44 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
-	
-	
-	<section id="experience">
+<section id="experience">
     <p class="section__text__p1 section__textsss">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container ">
         <div class="about-containers">
             <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
-                <h2 class="experience-sub-title " ><span class="toHoverCss">Medicine</span></h2>
+                <h2 class="experience-sub-title"><span class="toHoverCss">Licenses</span></h2>
                 <div class="article-container-experience">
-                    <article >
-                         <i class="fa fa-users icon myhthree" style="font-size:25px;"></i>
+                    <article style="margin-right:40px;">
+                        <i class="fa fa-user-md icon myhthree" style="font-size:25px; margin-right:15px;"></i>
                         <div>
-                            <h3 ><span class="toHoverCss">Mentorship</span></h3>
-                            <p>Experienced</p>
+                            <h3 style="width:200px;"><span class="toHoverCss">CPT I License</span></h3>
+                            <p>Certified Phlebotomy Technician</p>
                         </div>
                     </article>
-                    <article >
-                       <i class="fa fa-heartbeat icon myhthree" style="font-size:25px;"></i>
+                    <article>
+                        <i class="fa fa-heart icon myhthree" style="font-size:25px; margin-right:15px;"></i>
                         <div>
-                            <h3 ><span class="toHoverCss">Advocacy</span></h3>
-                            <p>Experienced</p>
+                            <h3 style="width:200px;"><span class="toHoverCss">Basic Life Support</span></h3>
+                            <p>Certified by American Heart Association</p>
                         </div>
                     </article>
-					<article >
-                        <i class="fa fa-stethoscope icon myhthree" style="font-size:25px;margin-right:13px;"></i>
-                        <div>
-                            <h3 style="width:250px;"><span class="toHoverCss">Clinical Practice</span></h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    
                 </div>
             </div>
             <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
                 <h2 class="experience-sub-title">Research</h2>
                 <div class="article-container-experience">
-                   <article>
+                   <article style="margin-right:40px;">
                         <i class="fa fa-flask icon myhthree" style="font-size:25px; margin-right:15px;"></i>
                         <div>
-                            <h3><span class="toHoverCss">Medical Research</span></h3>
+                            <h3 style="width:200px;"><span class="toHoverCss">Medical Research</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article>
                         <i class="fa fa-book icon myhthree" style="font-size:25px;margin-right:15px;"></i>
                         <div>
-                            <h3><span class="toHoverCss">Academic Writing</span></h3>
+                            <h3 style="width:200px;"><span class="toHoverCss">Academic Writing</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
@@ -207,8 +197,6 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
 </section>
-
-
 
 
 
@@ -252,7 +240,7 @@
 
 		<div class="col">
 			
-		<header class="title">
+	<header class="title">
     <h2>EXPERIENCE</h2>
 </header>
 
@@ -262,6 +250,25 @@
         <h3>Researcher</h3>
         <p>Kaweah Health Medical Center - Department of Emergency Medicine</p>
         <p>Conducted research on foot care awareness among unhoused individuals in Visalia, CA, implementing an educational program to promote proper foot health and prevent common ailments associated with homelessness.</p>
+    </div>
+
+    <div class="box">
+        <h4>September 2021 - April 2022</h4>
+        <h3>MESA Program Teacher</h3>
+        <p>Guided and mentored students in Mathematics, Engineering, Science Achievement (MESA) programs, enhancing their skills and interest in STEM fields.</p>
+    </div>
+
+    <div class="box">
+        <h4>January 2020 - August 2021</h4>
+        <h3>Phlebotomist</h3>
+        <p>San Joaquin General Hospital</p>
+        <p>Performed blood collection and handling, ensuring patient comfort and accuracy in sample preparation for laboratory analysis.</p>
+    </div>
+
+    <div class="box">
+        <h4>June 2019 - December 2019</h4>
+        <h3>Health Education and Outreach Intern</h3>
+        <p>Participated in community health initiatives, developing and delivering educational materials and programs focused on public health awareness.</p>
     </div>
 
     <div class="box">
@@ -442,71 +449,80 @@
 i{
 	font-size:30px;
 }</style>
+
 <section id="projects" >
         <p class="section__text__p1 section__textsss">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <h1 class="title">Research Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 
 				
 				
 							<div class="testmonial_slider_area text-center owl-carousel" data-aos="zoom-in">
-								 
+			 <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-1.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">Clinical Research</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Impact of Diet on Chronic Diseases</span></h2>
+                        <p class="projects__description">
+                            Investigated how dietary patterns affect the incidence and progression of chronic diseases among different populations.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-2.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">Genetic Studies</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Genetics of Cardiovascular Disorders</span></h2>
+                        <p class="projects__description">
+                            Explored genetic factors contributing to cardiovascular disorders in high-risk patient groups, aiming to develop targeted therapies.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-3.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">Neuroscience</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Neurodegenerative Disease Prevention</span></h2>
+                        <p class="projects__description">
+                            Focused on preventive strategies for neurodegenerative diseases through early detection and patient education.
+                        </p>
+                    </div>
+                </article>
 <article class="projects__card">
     <div class="projects__image">
-        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
+        <img src="assets/img/project-1.jpg" alt="Project Image" class="projects__img">
     </div>
     <div class="projects__content">
-        <span class="projects__subtitle">Equitable Healthcare</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Cultural Competency</span></h2>
+        <span class="projects__subtitle">Public Health</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Strategies for Epidemic Control</span></h2>
         <p class="projects__description">
-            Committed to providing culturally competent care to diverse patient populations, ensuring all individuals receive equitable treatment.
+            Analyzed the effectiveness of various public health interventions in controlling infectious disease outbreaks.
         </p>
     </div>
-     <div class="projects__buttons" style="opacity:0;">
-        <a href="https://github.com/Monifa" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-            <i class="ri-github-line"></i>
-        </a>
-        <a href="https://github.com/Monifa" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-            <i class="ri-eye-line"></i>
-        </a>
-    </div>
 </article>
+
 <article class="projects__card">
     <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
+        <img src="assets/img/project-2.jpg" alt="Project Image" class="projects__img">
     </div>
     <div class="projects__content">
-        <span class="projects__subtitle">Healthcare Access</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Community Outreach</span></h2>
+        <span class="projects__subtitle">Immunology</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Advancements in Vaccine Development</span></h2>
         <p class="projects__description">
-            Engaged in community outreach initiatives to improve healthcare access for vulnerable populations, focusing on education and empowerment.
+            Contributed to groundbreaking research in vaccine technology, focusing on innovative approaches to enhance immune responses.
         </p>
     </div>
-     
 </article>
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-1.jpg" alt="Projects 4" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Health Equity</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Medical Education</span></h2>
-        <p class="projects__description">
-            Dedicated to mentoring and inspiring underrepresented STEM and medical students, fostering a diverse and inclusive future healthcare workforce.
-        </p>
-    </div>
-    
-</article>
+
 
 
 </div>
@@ -537,13 +553,11 @@ i{
             <span class="oneone">Don't hesitate to reach out—I'm ready to connect! Your message matters to me, and I'm dedicated to giving it the attention it 
 			deserves. Whether you've got a burning question, valuable feedback, or simply want to say hello, I'm committed to responding. I can't wait to 
 			hear from you!</span>
-         <h3 class="oneone">Email:</h3>
-            <p class="oneone">omsawyerr@ucdavis.edu</p>
         </div>
         <div class="form-details" data-aos="zoom-in" >
 		    <input type="text" name="name" id="name" placeholder="Name" required>
             <input type="email" name="email" id="email" placeholder="Email" required>
-			<input type="text" name="subject" placeholder="Subject" required id="subject" style="width:82%; margin-top:-15px;">
+			<input type="text" name="subject" placeholder="Subject" required id="subject" >
 
             <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
         <button type="submit" class="btn-submit" id="newOrderForm" style="color:#fff; background:#7b57ff;">Submit Message</button>
