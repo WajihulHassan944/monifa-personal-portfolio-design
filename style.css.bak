@@ -1292,6 +1292,8 @@ section {
 	cursor: pointer;
 	transition: all 0.4s;
 	margin-bottom: 20px;
+	box-shadow: 0px 3px 12px 0px #ccc;
+	border: 1px solid transparent;
 }
 .containerSummary .col .contents .box:hover{
 	box-shadow: 0px 3px 12px 0px #ccc;
@@ -1323,6 +1325,10 @@ section {
 	color: #666;
 	font-size: 17px;
 }
+
+#subject{
+	width:82%; margin-top:-15px;
+}
 @media(max-width: 768px){
 	.containerSummary main.row{
 		grid-template-columns: 1fr;
@@ -1330,6 +1336,15 @@ section {
 	.row .col:nth-child(2){
 		margin-top: 30px;
 	}
+	
+#subject{
+	width:85%; margin-top:0px;
+	margin-bottom:20px;
+
+}
+#newOrderForm{
+	margin-bottom:100px;
+}
 }
 
 
