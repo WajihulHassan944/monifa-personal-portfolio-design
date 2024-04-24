@@ -401,8 +401,11 @@ article .icon {
 
 #projects {
     position: relative;
-	margin-top:850px;
+	margin-top:400px;
 	
+}
+#summary{
+	margin-top:-130px;
 }
 
 .color-container {
@@ -853,6 +856,7 @@ html {
 .myArticleTwo{
 	margin-right:50px;
 }
+
 @media only screen and (max-width: 767px) {
 	.owl-nav {
 		display: none;
@@ -861,6 +865,10 @@ html {
 		margin-bottom:70px;
 		margin-top:50px;
 	}
+	
+#summary{
+	margin-top:0;
+}
 	#contact{
 		margin-top:200px;
 	}
@@ -1357,3 +1365,11 @@ section {
 
 
 
+
+@media only screen and (max-width: 1030px){
+	
+#summary{
+	margin-top:100px;
+}
+
+}
