@@ -225,6 +225,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 #socials-container {
@@ -1342,7 +1343,7 @@ section {
 }
 
 #subject{
-	width:82%; margin-top:-15px;
+	width:85%; margin-top:-15px;
 }
 @media(max-width: 768px){
 	.containerSummary main.row{
@@ -1353,7 +1354,7 @@ section {
 	}
 	
 #subject{
-	width:85%; margin-top:0px;
+	width:100%; margin-top:0px;
 	margin-bottom:20px;
 
 }
